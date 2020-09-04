@@ -91,13 +91,13 @@ public extension UIView {
 }
 
 // 自定义view，用@IBDesignable修饰
-@IBDesignable class GrammView: UIView {
+@IBDesignable public class GrammView: UIView {
 }
-@IBDesignable class GrammBtn: UIButton {
+@IBDesignable public class GrammBtn: UIButton {
 }
-@IBDesignable class GrammLabel: UILabel {
+@IBDesignable public class GrammLabel: UILabel {
 }
-@IBDesignable class GrammImageView: UIImageView {
+@IBDesignable public class GrammImageView: UIImageView {
 }
 
 /// 顶部对其label

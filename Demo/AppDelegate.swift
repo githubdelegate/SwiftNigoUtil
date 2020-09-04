@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let _ = Date().isSameDay(with: Date())
         UIDevice.current.freeDiskGB
         
+        GrammView()
         
         return true
     }
